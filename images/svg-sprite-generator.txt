@@ -1,0 +1,10 @@
+# ---------------------------------------------------------------------------- #
+#                               from a directory                               #
+# ---------------------------------------------------------------------------- #
+svg-sprite-generate -d path/to/directory/of/svg/files -o path/to/sprite.svg
+# ---------------------------------------------------------------------------- #
+#                               from list of svgs                              #
+# ---------------------------------------------------------------------------- #
+Or specify SVG files to generate from. File paths can be separated with a comma.
+svg-sprite-generate -l path/to/file1.svg,path/to/file2.svg -o path/to/sprite.svg
+https://github.com/frexy/svg-sprite-generator
